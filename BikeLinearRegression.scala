@@ -88,6 +88,7 @@ object BikeLinearRegression {
 
    def LRPipeline():Pipeline = {
      val lr = new LinearRegression()
+     //fjklsdfsdnfl;ndflkjdnnnnnnnnnnnnnnnfdklsssssssssss
      lr.setMaxIter(1000)
      lr.setRegParam(0.01)
      val assembler = new VectorAssembler().setInputCols(
